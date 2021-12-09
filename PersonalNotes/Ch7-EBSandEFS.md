@@ -23,8 +23,43 @@
 
 ___
 
-## Snapshots
+### Snapshots
 - Snapshots exist on S3
 - Incremental
 - Can only be shared in the region they were created
+ 
+___
+
+## EFS
+- NFSv4
+- Pay per use
+- Mange Network file system that can be mounted EC2 instances
+- Basically shared storage for EC2 instances across Availability Zones
+- Scales automacticly; Don't need to select size like EBS
+
+### Performance
+- General Purpose
+  - Content Management
+- Max I/O
+    - Big Data
+
+### Storage Tiers
+- Standard
+- Infrequently Acessed
+___
+
+## FSx
+- Microsoft Windows file system
+### FSx for Lesture
+- Processes datasets, AI, achine Learning 
+
+### AMI
+Amazon Machine Image
+- Region
+- Operation system
+- Architecture (32 v 64 bit)
+- Launch Permissions
+- Storage for the root device (root device volume)
+
+
 
