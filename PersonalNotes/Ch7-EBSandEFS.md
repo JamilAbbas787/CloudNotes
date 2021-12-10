@@ -61,5 +61,5 @@ Amazon Machine Image
 - Launch Permissions
 - Storage for the root device (root device volume)
 
-
+- test
 
